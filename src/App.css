@@ -1,0 +1,78 @@
+
+ul li {
+    cursor: pointer;
+    font-family: Serif;
+}
+
+h1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.01rem;
+}
+
+.font-manrope {
+    font-family: "Manrope", sans-serif;
+}
+
+.font-Poppins {
+    font-family: "Poppins, sans-serif";
+}
+
+.font-Montserrat {
+    font-family: "Montserrat";
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+}
+
+p, li, span {
+    letter-spacing: 0.02rem;
+}
+
+p {
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.gi-main-menu ul li.dropdown ul.sub-menu {
+    -webkit-box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.07);
+    box-shadow: 2px 2px 15px 0 rgba(0, 0, 0, 0.07);
+}
+.gi-main-menu ul li.dropdown li.position-static {
+    position: relative !important;
+}
+.gi-main-menu ul li.dropdown li.position-static:hover .sub-menu.sub-menu-child {
+    margin: -5px 0 0 0;
+    opacity: 1;
+    visibility: visible;
+}
+.gi-main-menu ul li.dropdown ul.sub-menu.sub-menu-child {
+    margin: 30px 0 0 0;
+    left: 100% !important;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+}
+.gi-main-menu ul li.dropdown:hover .sub-menu {
+    margin-top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.gi-main-menu ul li.dropdown:hover .mega-menu {
+    margin-top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img {
+    transform: translateY(10px);
+}
+
+.card img {
+    transition: transform 0.6s ease;
+}
+
